@@ -1,0 +1,31 @@
+body {
+    background-color: peachpuff;
+    font-family: "Kaushan Script";
+    
+}
+
+h1 {
+    font-size: 125px;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+}
+
+.leftside, .rightside {
+    width: 50%;
+}
+
+.leftside img{
+    width: 100%;
+}
+
+.rightside {
+    background-color: whitesmoke;
+    padding: 5px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    /* font-family: "Kumbh Sans"; This may not look cohesive w/ title come back to think about this! */
+}
