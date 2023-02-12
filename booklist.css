@@ -79,3 +79,34 @@ h1 {
     font-weight: 400;
     text-align: center;
 }
+
+@media only screen and (max-width: 600px) {
+  .main {
+    flex-direction: column;
+    max-width: 100%;
+  }
+
+  .main .leftside,
+  .main .rightside {
+    padding: 0px;
+    width: 100%;
+  }
+  .main .leftside img {
+    width: 100%;
+  }
+  h1 {
+    text-align: center;
+    font-size: 35px;
+  }
+
+  .card {
+
+    width: 100%;
+  }
+
+  .row {
+    flex-direction: column;
+  }
+
+
+}

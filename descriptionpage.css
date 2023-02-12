@@ -26,7 +26,7 @@ body {
 }
 
 .rightside > img {
-    height: 400px;
+  height: 400px;
 }
 
 .right {
@@ -56,4 +56,20 @@ button {
 
 .main {
   margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+  .main,
+  .everything-main {
+    flex-direction: column;
+  }
+  .rightside,
+  .leftside,
+  .left,
+  .right {
+    width: 100%;
+  }
+  .gray-box {
+    height: auto;
+  }
 }

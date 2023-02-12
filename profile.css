@@ -60,3 +60,17 @@ label:before {
 .submitbutton {
   text-align: center;
 }
+
+@media only screen and (max-width: 600px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  h1, p { text-align: center;
+  }
+   
+}
